@@ -56,7 +56,7 @@ $ git merge <branch_name>
 # git remote
 To connect a local repository with a remote repository. A remote repository can have a name set to avoid having to remember the URL of the repository.
 # Add remote repository
-$ git remote <command> <remote_name> <remote_URL>
+$ git remote add <remote_URL>
 # List named remote repositories
 $ git remote -v
 ```
