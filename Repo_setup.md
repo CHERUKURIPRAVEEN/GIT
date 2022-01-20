@@ -19,7 +19,7 @@
 ```sh 
   cd existing_folder
   git init --initial-branch=main
-  git remote add origin http://gitlab-ce.lgcomus.lge.com/multishop/lg-multishop-category-service.git
+  git remote add origin <repo url>
   git add .
   git commit -m "Initial commit"
   git push -u origin main
@@ -29,7 +29,7 @@
 ```sh
   cd existing_repo
   git remote rename origin old-origin
-  git remote add origin http://gitlab-ce.lgcomus.lge.com/multishop/lg-multishop-category-service.git
+  git remote add origin <repo url>
   git push -u origin --all
   git push -u origin --tags
 ```
